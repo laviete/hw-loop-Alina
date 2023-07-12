@@ -37,10 +37,10 @@ for (count = 0; count < MAX_TRY; count++) {
   ) {
     alert(correctValue);
     break;
-  } else {
+  } 
     alert(notCorrectValue);
-  }
 }
 if (count === MAX_TRY) {
   alert(attemptsOver);
 }
+
