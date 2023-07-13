@@ -3,10 +3,10 @@
 //* обмежити кількість спроб до 5
 //** зробити задачу двома способами через while та for
 
+let count = 0;
 const MAX_TRY = 5;
 const MIN_NUM = 1;
 const MAX_NUM = 50;
-let count = 0;
 const attemptsOver = "attempts are over";
 const correctValue = "you won";
 const notCorrectValue = "wrong";
